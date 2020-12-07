@@ -1,3 +1,6 @@
 [submodule "pkgs"]
 	path = pkgs
 	url = https://github.com/helloshiki/pkgs.git
+[submodule "gits/sproto"]
+	path = gits/sproto
+	url = https://github.com/cloudwu/sproto.git

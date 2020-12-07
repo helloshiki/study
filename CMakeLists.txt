@@ -7,7 +7,8 @@ include_directories(
         pkgs/fmt/include
         pkgs/cxxopts/include
         pkgs/asio/include
-        pkgs/websocketpp
+        gits/sproto/
+#        pkgs/websocketpp
         #        vmroot/include
 )
 
@@ -15,8 +16,10 @@ include_directories(
 #        vmroot/lib
 #)
 
-add_definitions(-DSPDLOG_FMT_EXTERNAL)
+#add_definitions(-DSPDLOG_FMT_EXTERNAL)
 
 add_subdirectory(pkgs/spdlog)
 add_subdirectory(pkgs/fmt)
 add_subdirectory(asio)
+add_subdirectory(gits)
+add_subdirectory(sproto)

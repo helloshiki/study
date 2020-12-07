@@ -1,0 +1,15 @@
+.tag {
+    tag 0: integer
+}
+
+.ping {
+    tag 0: integer
+    nonce 1: integer
+    uuid 2: string
+}
+
+.pong {
+    tag 0: integer
+    nonce 1: integer
+    raddr 2: string
+}
